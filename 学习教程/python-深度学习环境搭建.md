@@ -91,7 +91,39 @@ nvcc --version
 
 ---
 
-## Step 3: 安装 PyTorch
+## Step 3: 创建 conda 环境并配置 pip 源
+
+创建专门用于深度学习的 conda 环境，并配置国内镜像源加速下载。
+
+```bash
+conda create -n dl python=3.12 -y
+conda activate dl
+```
+
+验证：
+
+```bash
+python --version        # 预期: Python 3.12.x
+which python            # 预期路径应在 miniconda3/envs/dl/bin
+```
+
+**为什么用 conda 环境？**
+- 隔离依赖：不同项目可以用不同 Python / 包版本
+- 深度学习包经常依赖特定版本，conda 能自动管理
+- 切换项目时 `conda deactivate` 再 `conda activate <新环境>` 即可
+
+激活环境后配置 pip 清华源，后续所有 pip install 都会走国内镜像：
+
+```bash
+pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
+pip config list  # 验证
+```
+
+> 📖 详见：[pip 换源](../配置调优/pip-换源.md)
+
+---
+
+## Step 4: 安装 PyTorch
 
 去 [pytorch.org](https://pytorch.org) 获取最新安装命令，或从下方选择。
 
@@ -117,7 +149,7 @@ pip install torch torchvision torchaudio
 
 ---
 
-## Step 4: 验证 GPU 可用
+## Step 5: 验证 GPU 可用
 
 ```bash
 python -c "
@@ -154,7 +186,7 @@ MPS: True
 
 ---
 
-## Step 5: 安装常用深度学习包
+## Step 6: 安装常用深度学习包
 
 ```bash
 pip install torch torchvision torchaudio    # 如 Step 6 已装可跳过
