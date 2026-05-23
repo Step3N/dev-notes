@@ -3,24 +3,9 @@
 > 配置 AI 编程助手，让你每天写代码效率翻倍
 
 **适用平台**：macOS / Windows / Linux
-**预估耗时**：20-40 分钟
 **前置条件**：
 - 已安装 VS Code（或兼容 IDE）
 - 有 GitHub / Google / 手机号账号（用于注册 API 服务）
-
----
-
-## 链路总览
-
-| 步骤 | 内容 | 耗时 |
-|------|------|------|
-| Step 1 | 获取 API Key | 5-10 min |
-| Step 2 | 配置环境变量 | 2 min |
-| Step 3 | VS Code + Continue 扩展 | 5 min |
-| Step 4 | Cursor IDE（备选） | 5 min |
-| Step 5 | 本地部署 Ollama（可选） | 10 min |
-| Step 6 | Prompt 实战模板 | 3 min |
-| Step 7 | 选择适合你的方案 | 1 min |
 
 ---
 

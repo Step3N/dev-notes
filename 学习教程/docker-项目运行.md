@@ -3,25 +3,11 @@
 > 从零开始，用 Docker 和 docker-compose 跑通完整的 Web 项目
 
 **适用平台**：macOS / Windows / Linux
-**预估耗时**：30-50 分钟
 **前置条件**：
 - 有基本命令行经验
 - 不需要 Docker 经验
 
 > 💡 **快速上手**：如果只想快速体验，做完 Step 1-3（安装 → 写 Dockerfile → 构建运行）即可。Step 4-6 为进阶编排。
-
----
-
-## 链路总览
-
-| 步骤 | 内容 | 耗时 |
-|------|------|------|
-| Step 1 | 安装 Docker | 5-10 min |
-| Step 2 | 编写 Dockerfile | 5-10 min |
-| Step 3 | 构建和运行 | 5 min |
-| Step 4 | docker-compose 多服务编排 | 5-10 min |
-| Step 5 | 配置 Nginx 反向代理 | 5-10 min |
-| Step 6 | 开发 vs 生产环境配置 | 5 min |
 
 ---
 

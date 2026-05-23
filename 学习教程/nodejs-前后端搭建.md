@@ -3,25 +3,9 @@
 > 从零开始，搭建一个完整的前后端分离项目，跑通开发到部署
 
 **适用平台**：macOS / Windows / Linux
-**预估耗时**：40-60 分钟
 **前置条件**：
 - 有基本命令行使用经验
 - 不需要有 Node.js 经验
-
----
-
-## 链路总览
-
-| 步骤 | 内容 | 耗时 |
-|------|------|------|
-| Step 1 | 安装 Node.js (via nvm) | 5 min |
-| Step 2 | 配置 npm 镜像源 | 1 min |
-| Step 3 | 创建前端项目 (Vite + React + TypeScript) | 5 min |
-| Step 4 | 创建后端项目 (Express + TypeScript) | 10 min |
-| Step 5 | 连接 PostgreSQL 数据库 | 10 min |
-| Step 6 | 配置环境变量 | 3 min |
-| Step 7 | Docker 打包部署 | 10 min |
-| Final | 最终验证 | 2 min |
 
 ---
 

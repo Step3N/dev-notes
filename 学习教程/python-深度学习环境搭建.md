@@ -3,26 +3,9 @@
 > 从零到一，装好 Python 和 PyTorch，GPU 跑通深度学习代码
 
 **适用平台**：macOS / Windows / Linux
-**预估耗时**：30-60 分钟
 **前置条件**：
 - NVIDIA GPU（Windows/Linux）或 Apple Silicon Mac（macOS）
 - 没有 GPU 也能走通，但用 CPU 训练较慢
-
----
-
-## 链路总览
-
-| 步骤 | 内容 | 耗时 |
-|------|------|------|
-| Step 1 | 安装 Python | 5 min |
-| Step 2 | 配置 pip 镜像源 | 1 min |
-| Step 3 | 安装 Miniconda | 5 min |
-| Step 4 | 创建 conda 环境 | 2 min |
-| Step 5 | 检查 GPU 并安装 CUDA | 10 min |
-| Step 6 | 安装 PyTorch | 3 min |
-| Step 7 | 验证 GPU 可用 | 1 min |
-| Step 8 | 安装常用深度学习包 | 3 min |
-| Final | 跑一个完整的训练测试 | 2 min |
 
 ---
 
